@@ -6,6 +6,8 @@
 [![npm downloads](https://img.shields.io/npm/dm/create-nepbs.svg)](https://www.npmjs.com/package/create-nepbs)
 [![license](https://img.shields.io/npm/l/create-nepbs.svg)](LICENSE)
 
+📦 **NPM Package:** [https://www.npmjs.com/package/create-nepbs](https://www.npmjs.com/package/create-nepbs)
+
 **NEPBS** is a simple CLI for creating a ready-to-use **Node.js + Express + Prisma** backend project in seconds.
 
 It supports **TypeScript** and **JavaScript**, multiple database options, automatic dependency installation, Prisma configuration, common backend utilities, and a clean starter structure.
@@ -263,7 +265,24 @@ NEPBS installs current compatible package versions during project generation.
 
 ---
 
+## Packages Not Added by Default
 
+To keep generated projects minimal, NEPBS does not install these packages automatically:
+
+```text
+zod
+helmet
+morgan
+eslint
+prettier
+husky
+swagger
+nodemon
+```
+
+You can install them manually when your project needs them.
+
+---
 
 ## Generated Project Structure
 
